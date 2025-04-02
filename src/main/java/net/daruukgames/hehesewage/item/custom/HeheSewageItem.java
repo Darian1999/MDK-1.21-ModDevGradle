@@ -16,7 +16,7 @@ import net.minecraft.world.phys.Vec3;
 
 public class HeheSewageItem extends Item {
 
-    private static final int EFFECT_CHANCE_PERCENT = 50;
+    private static final int EFFECT_CHANCE_PERCENT = 75; // Increased that to 75%.
     private static final double PUSH_STRENGTH = 0.75;
     private static final int EFFECT_DURATION = 200;
     private static final int EFFECT_STRENGTH = 0;
