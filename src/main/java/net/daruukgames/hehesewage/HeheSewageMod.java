@@ -53,6 +53,7 @@ public class HeheSewageMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.DEBATE);
+            event.accept(ModItems.HEHESEWAGE);
         }
     }
 

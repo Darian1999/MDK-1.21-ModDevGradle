@@ -49,7 +49,7 @@ public class HeheSewageItem extends Item {
                 if (livingEntity instanceof Player) {
                     // Apply some kind of poison effect
                     livingEntity.addEffect(new MobEffectInstance(MobEffects.POISON, EFFECT_DURATION, EFFECT_STRENGTH));
-                    // Then, push the player with force of 0.75
+                    // Then, push the player.
                     Vec3 lookDirection = livingEntity.getLookAngle();
                     Vec3 pushVec = lookDirection.scale(PUSH_STRENGTH);
                     livingEntity.setDeltaMovement(livingEntity.getDeltaMovement().add(pushVec));
